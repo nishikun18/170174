@@ -9,8 +9,10 @@ public class TestGui extends JFrame{
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		JTextField jtf=new JTextField("baka",15);
+		JPasswordField jpf=new JPasswordField("aho");
 		JPanel pan=new JPanel();
 		pan.add(jtf,BorderLayout.NORTH);
+		pan.add(jpf,BorderLayout.NORTH);
 		Container c=getContentPane();
 		c.add(pan,BorderLayout.NORTH);
 
